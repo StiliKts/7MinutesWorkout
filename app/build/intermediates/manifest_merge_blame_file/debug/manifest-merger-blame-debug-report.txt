@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sevenminuteworkout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:6:5-59:19
+12        android:allowBackup="false"
+12-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:7:9-36
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.2.0] C:\Users\Stelios\.gradle\caches\transforms-2\files-2.1\6c0044a99f91be826ffee75cdd447424\core-1.2.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:12:9-40
+21        <activity
+21-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:15:9-17:71
+22            android:name="com.sevenminuteworkout.MonthActivity"
+22-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:15:19-48
+23            android:screenOrientation="portrait"
+23-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:16:13-49
+24            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+24-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:17:13-69
+25        <activity
+25-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:20:9-30:20
+26            android:name="com.sevenminuteworkout.MainActivity"
+26-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:21:13-41
+27            android:label="@string/app_name"
+27-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:22:13-45
+28            android:screenOrientation="portrait"
+28-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:23:13-49
+29            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+29-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:24:13-69
+30            <intent-filter>
+30-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:25:13-29:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:26:17-69
+31-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:26:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:28:17-77
+33-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:28:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:31:9-34:72
+37            android:name="com.sevenminuteworkout.ExerciseActivity"
+37-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:32:13-45
+38            android:screenOrientation="portrait"
+38-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:33:13-49
+39            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+39-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:34:13-69
+40        <!--
+41This tag is already added by default when you create an activity along with the layout file.
+42        You just need add some extra attribute as per requirement.
+43        -->
+44        <activity
+44-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:39:9-42:72
+45            android:name="com.sevenminuteworkout.FinishActivity"
+45-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:40:13-43
+46            android:screenOrientation="portrait"
+46-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:41:13-49
+47            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+47-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:42:13-69
+48        <!--
+49This tag is already added by default when you create an activity along with the layout file.
+50        You just need add some extra attribute as per requirement.
+51        -->
+52        <activity
+52-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:47:9-50:72
+53            android:name="com.sevenminuteworkout.BMIActivity"
+53-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:48:13-40
+54            android:screenOrientation="portrait"
+54-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:49:13-49
+55            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+55-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:50:13-69
+56        <!--
+57This tag is already added by default when you create an activity along with the layout file.
+58        You just need add some extra attribute as per requirement.
+59        -->
+60        <activity
+60-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:55:9-58:72
+61            android:name="com.sevenminuteworkout.HistoryActivity"
+61-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:56:13-44
+62            android:screenOrientation="portrait"
+62-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:57:13-49
+63            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+63-->C:\Users\Stelios\Desktop\workoutApp\7MinutesWorkout_v23\app\src\main\AndroidManifest.xml:58:13-69
+64    </application>
+65
+66</manifest>

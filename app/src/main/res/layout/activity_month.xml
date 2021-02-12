@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MonthActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_month_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Trainere 30 Tage jeden Tag um die Leiste zu Füllen"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+
+    <ProgressBar
+        android:id="@+id/progressBarMontchChallenge"
+        android:layout_marginTop="30dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/progressbar_month_challenge"
+        tools:progress="60"  />
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/percentageInnerCircleMonthChallenge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+            <TextView
+                android:id="@+id/daysInnerCircleMonthChallenge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Wenn du einen Tag auslässt fällt die Leiste wieder auf 0 zurück!"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/startChallengeBtn"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Challenge starten"
+        android:background="@color/colorAccent"
+        />
+    <Button
+        android:id="@+id/resetChallengeBtn"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zurücksetzen"
+        android:background="@color/colorAccent"
+        />
+
+
+
+
+</LinearLayout>
